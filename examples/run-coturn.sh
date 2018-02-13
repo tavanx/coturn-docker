@@ -1,0 +1,1 @@
+docker run --net host -v /home/pat/turn_logs/:/var/log/ -v /home/pat/configs/turnserver.conf:/data/turnserver.conf -v /home/pat/configs:/home/pat/configs --restart=always -d tavan/coturn

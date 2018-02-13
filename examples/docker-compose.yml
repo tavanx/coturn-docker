@@ -1,9 +1,0 @@
-version: '2'
-services:
-  coturn:
-    image: tavan/coturn
-    ports:
-    - 3478:3478
-    volumes:
-    - /data/turnserver.conf:/data/turnserver.conf
-          
