@@ -42,7 +42,7 @@ RUN pip install --upgrade pip setuptools
 ENV INVALIDATEBUILD=notinvalidated
 
 # install turn-server
-ENV BV_TUR=4.5.0.8
+ENV BV_TUR=4.5.1.1
 ADD https://github.com/coturn/coturn/archive/$BV_TUR.zip c.zip
 RUN unzip c.zip \
     && rm c.zip \
